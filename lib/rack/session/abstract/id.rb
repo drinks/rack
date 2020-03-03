@@ -27,6 +27,7 @@ module Rack
 
       alias :cookie_value :public_id
       alias :to_s :public_id
+      alias :value_for_database :public_id
 
       def empty?; false; end
       def inspect; public_id.inspect; end
